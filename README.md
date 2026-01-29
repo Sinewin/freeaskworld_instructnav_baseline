@@ -1,6 +1,8 @@
 # Prerequisites
 WSL2 with Ubuntu 22.04
+
 ROS2 Humble
+
 Unity 6000.3.1f1
 
 # Setup
