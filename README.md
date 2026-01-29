@@ -42,5 +42,6 @@ Use the inet address for Unity configuration.
 
 ros2 run ros_tcp_endpoint default_server_endpoint  # Connect to Unity
 2. Terminal 2 (Run Baseline):
+
 python instructnav_baseline.py
 3. Unity: Run the scene.
