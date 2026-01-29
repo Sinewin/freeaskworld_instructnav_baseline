@@ -6,27 +6,27 @@ ROS2 Humble
 Unity 6000.3.1f1
 
 # Setup
-1. Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/Sinewin/freeaskworld_instructnav_baseline.git
 
-2. Create Conda environment from environment.yml:
+## Create Conda environment from environment.yml:
 
 conda env create -f environment.yml
 
-3. Symbolic link for ROS2:
+## Symbolic link for ROS2:
 
 conda activate insnav
 
 ln -s /home/yin/freeaskworld_instructnav_baseline/ros2 $CONDA_PREFIX/ros2
 
-4. Navigate to ROS2 directory and build:
+## Navigate to ROS2 directory and build:
 
 cd $CONDA_PREFIX/ros2
 
 colcon build  # Ensure dependencies are installed beforehand
 
-5. Source the setup script:
+## Source the setup script:
 
 source install/setup.bash
 
