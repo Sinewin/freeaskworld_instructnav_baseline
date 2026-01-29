@@ -18,7 +18,7 @@ conda env create -f environment.yml
 
 conda activate insnav
 
-ln -s /home/yin/freeaskworld_closed_loop/ros2 $CONDA_PREFIX/ros2
+ln -s /home/yin/freeaskworld_instructnav_baseline/ros2 $CONDA_PREFIX/ros2
 
 4. Navigate to ROS2 directory and build:
 
@@ -41,7 +41,9 @@ Use the inet address for Unity configuration.
 1. Terminal 1 (ROS2 Communication):
 
 ros2 run ros_tcp_endpoint default_server_endpoint  # Connect to Unity
+
 2. Terminal 2 (Run Baseline):
 
 python instructnav_baseline.py
+
 3. Unity: Run the scene.
